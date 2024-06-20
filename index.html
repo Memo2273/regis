@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="descarga.jpg">
+    <center>
+        <font color="orange" size="5" face="trajan pro">
+            <u>*Registrar Aspirante*</u>
+        </font>
+        <br><br>
+        
+        <form action="busca.html" method="POST">
+            <table border="5">
+                <tr bgcolor='#CCCCCC'>
+                    <td><font color="black" size="3" face="trajan pro">Introduzca el número de cédula</td>
+                    <td><input type="text" name="ce"/></td>
+                    <td><input type="submit" name="buscar" value="Buscar"/></td>
+                </tr>
+            </table>
+            
+            <table width="562" border="6">
+                <tr bgcolor='#B7F2F7'>
+                    <td><font color="black" size="3" face="trajan pro">Cédula</td>
+                    <td><input name="cedula" type="text" size="30"/></td>
+                </tr>
+                <tr bgcolor='#B7F2F7'>
+                    <td><font color="black" size="3" face="trajan pro">Nombre</td>
+                    <td><input name="nombre" type="text" size="30"/></td>
+                </tr>
+                <tr bgcolor='#CCCCCC'>
+                    <td><font color="black" size="3" face="trajan pro">Dirección</td>
+                    <td><input name="direccion" type="text" size="60" /></td>
+                </tr>
+                <tr bgcolor='#CCCCCC'>
+                    <td><font color="black" size="3" face="trajan pro">Teléfono</td>
+                    <td><input name="telefono" type="text" size="60"/></td>
+                </tr>
+                <tr bgcolor='#CCCCCC'>
+                </form> 
+                    
+                    <td colspan="2" align="center">
+                        
+        <a href="agregado.html">
+        <button type="submit" name="Registrar">Registrar</button>
+        </a>
+                    
+                </td>
+                
+                </tr>
+            </table>
+        
+        <form action="lista.html" method="POST">
+            <input type="submit" name="lista" value="Lista de personal"/>
+        </form>
+        <table border="5">
+            <tr bgcolor='#CCCCCC'>
+                <td><font color="black" size="2" face="trajan pro">Introduzca el número de cédula para eliminar usuario</td>
+                <form action="elimino22738.html" method="POST">
+                    <td><input type="text" name="ced"/></td>
+                    <td><input type="submit" name="eliminar" value="Eliminar"/></td>
+                </form>
+                <form action="vaciar.html" method="POST">
+                    <td><input type="submit" name="vaciar" value="Vaciar listado"/></td>
+                </form>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
